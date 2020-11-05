@@ -1,0 +1,30 @@
+form{
+    max-height: 50vh;
+    max-width: 80vh;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 3px solid rgb(204,239,000);
+    background-color: rgb(240, 239, 243);
+}
+
+.form_container > label {
+    width: 90px;
+    text-transform: uppercase;
+}
+
+.form_container > input {
+    max-width: 100%;
+    border-style: ridge;
+    padding: .2rem 0;
+
+}
