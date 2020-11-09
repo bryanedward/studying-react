@@ -1,5 +1,6 @@
 import './App.css';
-import Index from './containers/state';
+import Render from './containers/render/Render';
+//import Index from './containers/state';
 // import Index from './containers/componentspra';
 // import Mapping from './containers/mappingar/Mappin';
 // import DestroyProps from './containers/props/destroyProps';
@@ -13,7 +14,8 @@ function App() {
       {/* <Arraydist /> */}
       {/* <DestroyProps /> */}
       {/* <Index /> */}
-      <Index />
+      {/* <Index /> */}
+      <Render />
     </div>
   );
 }
