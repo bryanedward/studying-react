@@ -1,5 +1,7 @@
 import './App.css';
-import Render from './containers/render/Render';
+// import Form from './containers/form/Form';
+import Forms from './containers/forms/Forms';
+// import Render from './containers/render/Render';
 //import Index from './containers/state';
 // import Index from './containers/componentspra';
 // import Mapping from './containers/mappingar/Mappin';
@@ -15,7 +17,9 @@ function App() {
       {/* <DestroyProps /> */}
       {/* <Index /> */}
       {/* <Index /> */}
-      <Render />
+      {/* <Render /> */}
+      {/* <Form /> */}
+      <Forms />
     </div>
   );
 }
