@@ -1,6 +1,8 @@
 import './App.css';
+import Createref from './containers/createref/Createref';
+import LifeCycles from './containers/lifeCycles/LifeCycles';
 // import Form from './containers/form/Form';
-import Forms from './containers/forms/Forms';
+// import Forms from './containers/forms/Forms';
 // import Render from './containers/render/Render';
 //import Index from './containers/state';
 // import Index from './containers/componentspra';
@@ -19,7 +21,9 @@ function App() {
       {/* <Index /> */}
       {/* <Render /> */}
       {/* <Form /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <Createref />
+      <LifeCycles />
     </div>
   );
 }
